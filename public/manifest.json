@@ -1,0 +1,9 @@
+{
+  "name": "Eduards Leimanis - Portfolio",
+  "short_name": "Eduard",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#6E57E0",
+  "orientation": "portrait-primary"
+}

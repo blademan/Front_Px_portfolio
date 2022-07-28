@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.125rem;
+  }
+}
+
+.section-container {
+  @apply max-w-6xl mx-auto text-center;
+}
+
+@layer components {
+  .container {
+    @apply max-w-[960px] mx-auto;
+  }
+}
+
+@layer components {
+  .btn-blue {
+    @apply bg-[#6878a3] text-white font-bold py-2 px-4 rounded-sm hover:bg-[#6878a387] uppercase;
+  }
+}
+/*==================== GOOGLE FONTS ====================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&family=Montserrat:wght@500;800&display=swap');
+
+/*==================== BASE ====================*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  background-color: hsl(250 60% 99%);
+}
+html.dark {
+  background-color: hsl(250 28% 12%);
+}
+body {
+  font-family: Comfortaa, cursive;
+}
+
+.active {
+  color: hsl(250deg 69% 61%);
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: rgba(113, 108, 137);
+  border-radius: 0.5rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(84, 81, 103);
+  border-radius: 0.5rem;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(89, 90, 91);
+}
+
+.mySwiper .swiper-button-prev {
+  color: rgba(111 87 224);
+}
+.mySwiper .swiper-button-prev:after {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.mySwiper .swiper-button-next {
+  color: rgba(111 87 224);
+}
+.mySwiper .swiper-button-next:after {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.mySwiper .swiper-scrollbar-drag {
+  background-color: rgba(111 87 224);
+}
+
+/* Logo Styles */
