@@ -51,7 +51,7 @@ body {
 }
 
 .active {
-  color: hsl(250deg 69% 61%);
+  color: hsl(250 69% 61%);
 }
 
 ::-webkit-scrollbar {

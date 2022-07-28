@@ -38,9 +38,12 @@ export default function Home() {
                 <i className="uil uil-telegram-alt"></i>
               </a>
             </div>
+
             {/* Home Image */}
             {isMouseEnter && <Cursor isGelly={true} cursorSize={0} />}
             <div
+              onTouchMove={() => setMouseEnter(true)}
+              onTouchEnd={() => setMouseEnter(false)}
               onMouseEnter={() => setMouseEnter(true)}
               onMouseLeave={() => setMouseEnter(false)}
               className="min-w-[70%] md:min-w-[30%] md:order-1  ">
@@ -56,7 +59,7 @@ export default function Home() {
             </div>
 
             {/* Title */}
-            <div className="md:w-[60%] md:order-0">
+            <div className=" md:w-[60%] md:order-0">
               <div className="flex flex-col space-y-2 font-cursive md:max-w-sm">
                 <h1 className="dark:text-D_titleColor text-titleColor font-bold mt-8">
                   Hi, I am Eduard

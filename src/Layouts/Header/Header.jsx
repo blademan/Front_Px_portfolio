@@ -33,7 +33,7 @@ export default function Header() {
             <div className="flex justify-between relative">
               <div className="flex space-x-7">
                 <a href="!#" className="flex items-center py-3 md:py-6 px-2 z-10">
-                  <span className=" dark:text-gray-400 text-xl">
+                  <span className=" dark:text-gray-500 text-xl">
                     Front<span className="text-firstColor">PX</span>
                   </span>
                 </a>
@@ -48,7 +48,7 @@ export default function Header() {
                       to={item.name}
                       key={item.name}
                       href="!"
-                      className=" capitalize py-4 px-2 dark:text-gray-300 border-b-4 border-firstColor hover:border-gray-400">
+                      className="font-bold capitalize py-4 px-2 text-gray-500    border-b-4 border-firstColor hover:border-gray-400">
                       {item.name}
                     </Link>
                   ))}
