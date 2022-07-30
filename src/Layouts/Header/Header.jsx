@@ -26,13 +26,13 @@ export default function Header() {
       <nav
         className=" dark:bg-D_bodyColor  bg-bodyColor fixed right-0 left-0 bottom-0 md:sticky md:top-0 z-50 md:mb-[-5rem]
       
-        shadow-gray-800 dark:shadow-firstColor shadow-2xl md:shadow-none
+        shadow-gray-800 dark:shadow-firstColor shadow-2xl md:shadow-gray-200 dark:md:shadow-none
       ">
         <div className="container">
           <div className="max-w-6xl mx-auto px-4 ">
             <div className="flex justify-between relative">
               <div className="flex space-x-7">
-                <a href="!#" className="flex items-center py-3 md:py-6 px-2 z-10">
+                <a href="/" className="flex items-center py-3 md:py-6 px-2 z-10">
                   <span className=" dark:text-gray-500 text-xl">
                     Front<span className="text-firstColor">PX</span>
                   </span>
@@ -64,7 +64,7 @@ export default function Header() {
                   <ThemeButton />
                   <button
                     onClick={showMenu}
-                    className="text-xl text-white pt-1 hover:text-firstColor">
+                    className="text-xl dark:text-white pt-1 hover:text-firstColor">
                     <i className="uil uil-apps"></i>
                   </button>
                 </div>
@@ -73,7 +73,7 @@ export default function Header() {
           </div>
 
           {isMobileMenuOpen && (
-            <div className="flex justify-center w-full  bg-D_bodyColor text-center">
+            <div className="flex justify-center w-full  dark:bg-D_bodyColor text-center">
               <div className="nav__menu show-menu w-full">
                 <ul className="grid grid-cols-3 gap-8 pb-8">
                   {navigation.map((item) => (
@@ -84,7 +84,7 @@ export default function Header() {
                       spy
                       to={item.name}
                       key={item.name}
-                      className="text-gray-300 hover:text-firstColor font-bold">
+                      className="text-gray-500 hover:text-firstColor font-bold">
                       <li href={item.href} className="flex flex-col  capitalize ">
                         <i className={item.icon}></i>
                         {item.name}
@@ -98,7 +98,9 @@ export default function Header() {
           {isMobileMenuOpen && (
             <div className="flex justify-end items-center space-x-4 text-right pr-4 pb-[12px]">
               <ThemeButton />
-              <button onClick={showMenu} className="text-xl text-white pt-1 hover:text-firstColor">
+              <button
+                onClick={showMenu}
+                className="text-xl dark:text-white pt-1 hover:text-firstColor">
                 <i className="uil uil-times nav__close noSelect" id="nav-close"></i>
               </button>
             </div>

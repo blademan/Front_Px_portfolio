@@ -1,4 +1,4 @@
-// import Preloader from './Components/PreLoader/PreLoader';
+import Preloader from './Components/PreLoader/PreLoader';
 import ProgressBar from './Components/ProgressBar/ProgressBar';
 import Wrapper from './Components/UI/Wrapper';
 import Home from './Layouts/Home/Home';
@@ -18,6 +18,7 @@ import SoundButton from './Components/SoundButton/SoundButton';
 function App() {
   return (
     <>
+      <Preloader />
       <ProgressBar />
       <Header />
       <SoundButton />

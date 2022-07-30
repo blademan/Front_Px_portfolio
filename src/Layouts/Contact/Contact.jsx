@@ -12,7 +12,7 @@ export default function Contact() {
 
             <div>
               <h3 className="dark:text-D_titleColor text-titleColor font-bold">Call Me</h3>
-              <span className="dark:text-D_textColor text-textColor text-xs">+91 7838436141</span>
+              <span className="dark:text-D_textColor text-textColor text-xs">+371 20474848</span>
             </div>
           </div>
 
@@ -32,7 +32,7 @@ export default function Contact() {
 
             <div>
               <h3 className="dark:text-D_titleColor text-titleColor font-bold">Location</h3>
-              <span className="dark:text-D_textColor text-textColor text-xs">+RIga, Latvia</span>
+              <span className="dark:text-D_textColor text-textColor text-xs">Riga, Latvia</span>
             </div>
           </div>
         </div>

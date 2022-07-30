@@ -10,17 +10,34 @@ export default function Footer() {
         </div>
         <ul className="flex flex-col md:flex-row md:flex-grow-1  md:space-x-6  space-y-5 text-white pt-16 md:pt-0  md:space-y-0">
           <li>
-            <Link to="services" spy={true} smooth={true} offset={-50} duration={500}>
+            <Link
+              activeClass="active2"
+              className="cursor-pointer hover:text-gray-600 "
+              to="services"
+              smooth={true}
+              offset={-50}
+              duration={500}>
               Services
             </Link>
           </li>
           <li>
-            <Link to="portfolio" spy={true} smooth={true} offset={-50} duration={500}>
+            <Link
+              className="cursor-pointer hover:text-gray-600 "
+              to="portfolio"
+              smooth={true}
+              offset={-50}
+              duration={500}>
               Portfolio
             </Link>
           </li>
           <li>
-            <Link to="contact" spy={true} smooth={true} offset={-50} duration={500}>
+            <Link
+              activeClass="active2"
+              className="cursor-pointer hover:text-gray-600 "
+              to="contact"
+              smooth={true}
+              offset={-50}
+              duration={500}>
               Contact Me
             </Link>
           </li>

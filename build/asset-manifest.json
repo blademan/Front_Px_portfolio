@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f16d44f2.css",
-    "main.js": "/static/js/main.2b064564.js",
+    "main.css": "/static/css/main.6b8f0e85.css",
+    "main.js": "/static/js/main.fa3f78f9.js",
     "static/media/audio.mp3": "/static/media/audio.3033a237e94e2613d6ef.mp3",
     "static/media/transportor.jpg": "/static/media/transportor.284264e32634da94e3c3.jpg",
     "static/media/me_lake.jpeg": "/static/media/me_lake.c1d6d7937785dba6712c.jpeg",
@@ -22,11 +22,11 @@
     "static/media/figma-seeklogo.com.svg": "/static/media/figma-seeklogo.com.753c074260c28fd2c006e8a0bb5bdfe2.svg",
     "static/media/Tailwind_CSS_Logo.svg": "/static/media/Tailwind_CSS_Logo.fa33f4e8e025e5e800a2b8938c449152.svg",
     "static/media/webpack-icon-logo-vector.svg": "/static/media/webpack-icon-logo-vector.e71febbf47e156de2be4f6fd65489517.svg",
-    "main.f16d44f2.css.map": "/static/css/main.f16d44f2.css.map",
-    "main.2b064564.js.map": "/static/js/main.2b064564.js.map"
+    "main.6b8f0e85.css.map": "/static/css/main.6b8f0e85.css.map",
+    "main.fa3f78f9.js.map": "/static/js/main.fa3f78f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.f16d44f2.css",
-    "static/js/main.2b064564.js"
+    "static/css/main.6b8f0e85.css",
+    "static/js/main.fa3f78f9.js"
   ]
 }
