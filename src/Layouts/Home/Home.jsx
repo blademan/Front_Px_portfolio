@@ -1,4 +1,4 @@
-import profileImg from '../../Assets/img/portfolio/Me.jpeg';
+import profileImg from '../../Assets/img/portfolio/Me.webp';
 import Button from '../../Components/Button/Button';
 import { Cursor } from 'react-creative-cursor';
 import 'react-creative-cursor/dist/styles.css';

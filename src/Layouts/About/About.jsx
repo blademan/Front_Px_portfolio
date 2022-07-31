@@ -1,4 +1,4 @@
-import profileImg from '../../Assets/img/portfolio/me_lake.jpeg';
+import profileImg from '../../Assets/img/portfolio/me_lake.webp';
 
 import SectionTitle from '../../Components/UI/SectionTitle';
 

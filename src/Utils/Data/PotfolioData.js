@@ -1,6 +1,6 @@
-import slide1 from '../../Assets/img/portfolio/Snapcar.png';
-import slide2 from '../../Assets/img/portfolio/guaerdev.png';
-import slide3 from '../../Assets/img/portfolio/transportor.jpg';
+import slide1 from '../../Assets/img/portfolio/Snapcar.webp';
+import slide2 from '../../Assets/img/portfolio/guaerdev.webp';
+import slide3 from '../../Assets/img/portfolio/transportor.webp';
 
 const portfolio_db = [
   {
