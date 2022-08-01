@@ -51,7 +51,10 @@ export default function Services() {
           </div>
         </div>
       </section>
-      <Modal onCloseModal={setShowModalContent} visible={showModalContent[0]} id={1}>
+      <Modal
+        onCloseModal={setShowModalContent}
+        visible={showModalContent[0]}
+        id={showModalContent[1]}>
         {showModalContent[1] === 1 ? <ServiceContent /> : null}
         {showModalContent[1] === 2 ? <ServiceContent2 /> : null}
       </Modal>

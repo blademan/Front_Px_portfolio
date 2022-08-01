@@ -17,21 +17,21 @@ export default function Home() {
             {/* Social icon */}
             <div className="flex flex-col space-y-5 w-[30%] md:w-[10%] lg:translate-x-[-6rem]">
               <a
-                href="https://in.linkedin.com/in/animesh-rawat-0b545552"
+                href="https://www.linkedin.com/in/frontpx/"
                 target="_blank"
                 className="text-firstColor text-xl hover:text-firstColorAlt"
                 rel="noreferrer">
                 <i className=" uil uil-linkedin-alt"></i>
               </a>
               <a
-                href="https://github.com/rawatanimesh"
+                href="https://github.com/blademan"
                 target="_blank"
                 className="text-firstColor text-xl hover:text-firstColorAlt"
                 rel="noreferrer">
                 <i className="uil uil-github-alt"></i>
               </a>
               <a
-                href="https://t.me/rawatanimesh"
+                href="https://t.me/HeimikLv"
                 target="_blank"
                 className="text-firstColor text-xl hover:text-firstColorAlt"
                 rel="noreferrer">

@@ -44,7 +44,7 @@ export default function Footer() {
         </ul>
 
         <div className="flex text-white space-x-8 pt-16  md:pt-0">
-          <a rel="noreferrer" href="https://www.facebook.com/frontpx/" target="_blank">
+          <a rel="noreferrer" href="https://www.linkedin.com/in/frontpx/" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"
@@ -55,7 +55,7 @@ export default function Footer() {
               />
             </svg>
           </a>
-          <a rel="noreferrer" href="https://www.facebook.com/frontpx/" target="_blank">
+          <a rel="noreferrer" href="https://t.me/HeimikLv" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 496 512"
@@ -67,7 +67,7 @@ export default function Footer() {
             </svg>
           </a>
 
-          <a rel="noreferrer" href="https://www.facebook.com/frontpx/" target="_blank">
+          <a rel="noreferrer" href="https://github.com/blademan" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 496 512"
@@ -78,7 +78,7 @@ export default function Footer() {
               />
             </svg>
           </a>
-          <a rel="noreferrer" href="https://www.facebook.com/frontpx/" target="_blank">
+          <a rel="noreferrer" href="https://wa.me/37120474848" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"

@@ -27,7 +27,7 @@ const dropIn = {
   },
 };
 
-const ServicesModal = ({ visible, onCloseModal, children }) => {
+const ServicesModal = ({ visible, onCloseModal, children, id }) => {
   return ReactDOM.createPortal(
     <AnimatePresence>
       {visible && (
@@ -47,7 +47,9 @@ const ServicesModal = ({ visible, onCloseModal, children }) => {
             className=" relative flex items-center justify-center  p-4 w-full max-w-2xl h-full md:h-auto">
             <div className="relative bg-white rounded-lg shadow dark:bg-D_containerColor">
               <div className="flex justify-between items-start p-4 rounded-t border-b dark:border-gray-600">
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white">title</h3>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white">
+                  {id === 1 ? 'Frontend Developer' : 'WordPress Developer'}
+                </h3>
                 <button
                   onClick={() => onCloseModal([false, null])}
                   type="button"

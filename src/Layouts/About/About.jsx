@@ -1,4 +1,5 @@
 import profileImg from '../../Assets/img/portfolio/me_lake.webp';
+import pdf from '../../Assets/pdf/Eduards_Resume.pdf';
 
 import SectionTitle from '../../Components/UI/SectionTitle';
 
@@ -34,7 +35,9 @@ export default function About() {
           </div>
         </div>
 
-        <button
+        <a
+          href={pdf}
+          download
           className=" flex space-x-2 mt-8 w-48 px-6 py-4 font-medium
         rounded-md
         text-white hover:bg-firstColorAlt bg-firstColor 
@@ -42,7 +45,7 @@ export default function About() {
     ">
           <span>Download CV</span>
           <i className="uil uil-download-alt"></i>
-        </button>
+        </a>
       </div>
     </section>
   );

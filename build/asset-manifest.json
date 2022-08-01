@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.6b8f0e85.css",
-    "main.js": "/static/js/main.97510b41.js",
+    "main.css": "/static/css/main.d1c30419.css",
+    "main.js": "/static/js/main.2f2a5729.js",
     "static/media/audio.mp3": "/static/media/audio.3033a237e94e2613d6ef.mp3",
     "static/media/me_lake.webp": "/static/media/me_lake.1a7a55b8f89e83059ae4.webp",
     "static/media/Me.webp": "/static/media/Me.6cd7c9c5fdc432d9c797.webp",
+    "static/media/Eduards_Resume.pdf": "/static/media/Eduards_Resume.f505e68aeeac10ec345d.pdf",
     "static/media/transportor.webp": "/static/media/transportor.2f6d4fa342fc655d5e8d.webp",
     "static/media/Rob.jpg": "/static/media/Rob.638cc130c07094b1045c.jpg",
     "static/media/Snapcar.webp": "/static/media/Snapcar.c9109a0afef00b31ae95.webp",
@@ -22,11 +23,11 @@
     "static/media/figma-seeklogo.com.svg": "/static/media/figma-seeklogo.com.753c074260c28fd2c006e8a0bb5bdfe2.svg",
     "static/media/Tailwind_CSS_Logo.svg": "/static/media/Tailwind_CSS_Logo.fa33f4e8e025e5e800a2b8938c449152.svg",
     "static/media/webpack-icon-logo-vector.svg": "/static/media/webpack-icon-logo-vector.e71febbf47e156de2be4f6fd65489517.svg",
-    "main.6b8f0e85.css.map": "/static/css/main.6b8f0e85.css.map",
-    "main.97510b41.js.map": "/static/js/main.97510b41.js.map"
+    "main.d1c30419.css.map": "/static/css/main.d1c30419.css.map",
+    "main.2f2a5729.js.map": "/static/js/main.2f2a5729.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b8f0e85.css",
-    "static/js/main.97510b41.js"
+    "static/css/main.d1c30419.css",
+    "static/js/main.2f2a5729.js"
   ]
 }

@@ -20,7 +20,7 @@
 
 @layer components {
   .container {
-    @apply max-w-[960px] mx-auto;
+    @apply max-w-[768px] mx-auto;
   }
 }
 
