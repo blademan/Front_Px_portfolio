@@ -1,8 +1,11 @@
 import profileImg from '../../Assets/img/portfolio/Me.webp';
+import profileImgJpeg from '../../Assets/img/portfolio/me_lake.jpeg';
 import Button from '../../Components/Button/Button';
 import { Cursor } from 'react-creative-cursor';
 import 'react-creative-cursor/dist/styles.css';
 import { useState } from 'react';
+
+import ImgWithFallBack from '../../Utils/Helper/ImgWithFallBack';
 
 export default function Home() {
   const [isMouseEnter, setMouseEnter] = useState(false);
@@ -47,14 +50,15 @@ export default function Home() {
               onMouseEnter={() => setMouseEnter(true)}
               onMouseLeave={() => setMouseEnter(false)}
               className="min-w-[70%] md:min-w-[30%] md:order-1  ">
-              <img
+              <ImgWithFallBack
                 data-cursor-magnetic
                 data-cursor-size="150px"
                 data-cursor-color="rgba(110	87	224	,0.5	)"
                 data-cursor-text="Hello : )"
-                className="w-48 rounded-full   md:ml-auto md:mr-0  "
                 src={profileImg}
+                fallback={profileImgJpeg}
                 alt="Eduards"
+                className="w-48 rounded-full   md:ml-auto md:mr-0  "
               />
             </div>
 

@@ -1,7 +1,10 @@
 import profileImg from '../../Assets/img/portfolio/me_lake.webp';
+import profileImgJpeg from '../../Assets/img/portfolio/me_lake.jpeg';
 import pdf from '../../Assets/pdf/Eduards_Resume.pdf';
 
 import SectionTitle from '../../Components/UI/SectionTitle';
+
+import ImgWithFallBack from '../../Utils/Helper/ImgWithFallBack';
 
 export default function About() {
   return (
@@ -9,7 +12,8 @@ export default function About() {
       <SectionTitle title="About Me" subtitle="My Introduction" />
 
       <div className="flex flex-col justify-center pt-12 items-center ">
-        <img src={profileImg} alt="Lake" className="" />
+        <ImgWithFallBack src={profileImg} alt="Lake" fallback={profileImgJpeg} />
+
         <p className="dark:text-D_textColor text-textColor pt-6 pb-10">
           A web developer with extensive knowledge and years of experience. Extensive knowledge of
           web technologies, modern libraries and frameworks.
