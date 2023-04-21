@@ -1,4 +1,5 @@
 import slide4 from '../../Assets/img/portfolio/Snapcar.webp'
+import slide6 from '../../Assets/img/portfolio/cinema.png'
 import slide1 from '../../Assets/img/portfolio/crypto.png'
 import slide2 from '../../Assets/img/portfolio/guaerdev.webp'
 import slide5 from '../../Assets/img/portfolio/portfolio.webp'
@@ -34,6 +35,12 @@ const portfolio_db = [
 		title: 'Transportor',
 		description: 'Wordpress project',
 		link: 'https://www.transportor.com/',
+	},
+	{
+		img: slide6,
+		title: 'Cinemate',
+		description: 'React Tailwind project',
+		link: 'https://cinema-react-tailwind.netlify.app/',
 	},
 ]
 
